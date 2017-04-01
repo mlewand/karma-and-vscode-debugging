@@ -7,12 +7,10 @@
 			"name": "Attach Karma Chrome",
 			"address": "localhost",
 			"port": 9333,
-			"trace": true,
 			"pathMapping": {
 				"/": "${workspaceRoot}",
-				"/base": "${workspaceRoot}/test"
-			},
-			"disableNetworkCache": true
+				"/base/": "${workspaceRoot}/test/"
+			}
 		}
 	]
 }
