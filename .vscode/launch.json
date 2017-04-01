@@ -1,0 +1,18 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "chrome",
+			"request": "attach",
+			"name": "Attach Karma Chrome",
+			"address": "localhost",
+			"port": 9333,
+			"trace": true,
+			"pathMapping": {
+				"/": "${workspaceRoot}",
+				"/base": "${workspaceRoot}/test"
+			},
+			"disableNetworkCache": true
+		}
+	]
+}
