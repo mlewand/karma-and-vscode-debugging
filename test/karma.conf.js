@@ -9,7 +9,7 @@ module.exports = function( config ) {
     autoWatch: true,
 
     // base path, that will be used to resolve files and exclude
-    basePath: '',
+    basePath: '..',
 
     // testing framework to use (jasmine/mocha/qunit/...)
     // as well as any additional frameworks (requirejs/chai/sinon/...)
@@ -19,7 +19,8 @@ module.exports = function( config ) {
 
     // list of files / patterns to load in the browser
     files: [
-      '**/*.js'
+      'src/**/*.js',
+      'test/**/*.js'
     ],
 
     // list of files / patterns to exclude

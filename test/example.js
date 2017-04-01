@@ -1,7 +1,7 @@
 describe( "A suite is just a function", function() {
 	it( "and so is a spec", function() {
-		let a = true;
+		let res = myFunction( 15 );
 
-		expect( a ).toBe( true );
+		expect( res ).toBe( true );
 	} );
 } );
